@@ -1,0 +1,24 @@
+{
+  "processors": ["stylelint-processor-html"],
+  "extends": "stylelint-config-standard",
+  "ignoreFiles": ["src/**/*.js", "node_modules/**/*", "static/**/*", "*.js"],
+  "rules": {
+    "no-empty-source": null,
+    "unit-case": "lower",
+    "property-case": "lower",
+    "color-hex-case": "lower",
+    "at-rule-name-case": "lower",
+    "function-name-case": "lower",
+    "value-keyword-case": "lower",
+    "media-feature-name-case": "lower",
+    "selector-type-case": "lower",
+    "selector-pseudo-class-case": "lower",
+    "selector-pseudo-element-case": "lower",
+    "number-leading-zero": "never",
+    "declaration-no-important": true,
+    "selector-id-pattern": "^[a-z0-9-_]+$",
+    "selector-class-pattern": "^[a-z0-9-_]+$",
+    "declaration-block-no-redundant-longhand-properties": true,
+    "declaration-block-single-line-max-declarations": 0
+  }
+}

@@ -1,0 +1,32 @@
+:root {
+  --main-font: 'Arial';
+  --black: #323847;
+  --red: #db2c00;
+  --grey: #cacaca;
+  --light-grey: #e7e7e7;
+  --blue: #0082d8;
+  --white: #fff;
+  --text-color: var(--black);
+  --error-color: var(--red);
+  --input-color: var(--grey);
+  --button-color: var(--blue);
+  --button-text-color: var(--white);
+  --button-radius: 2rem;
+  --input-time: .3s;
+  --button-time: .3s;
+  --overlay-time: .3s;
+
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+::before,
+::after {
+  font-family: var(--main-font);
+  color: var(--text-color);
+  box-sizing: border-box;
+}
